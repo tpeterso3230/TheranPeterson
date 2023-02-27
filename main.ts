@@ -1,6 +1,18 @@
-input.onButtonPressed(Button.A, function () {
-	
-})
-input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    music.playTone(262, music.beat(BeatFraction.Whole))
+basic.forever(function () {
+    music.playTone(277, music.beat(BeatFraction.Double))
+    music.playTone(415, music.beat(BeatFraction.Breve))
+    music.playTone(370, music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(311, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Double))
+    music.playTone(415, music.beat(BeatFraction.Breve))
+    music.playTone(370, music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(311, music.beat(BeatFraction.Half))
+    music.playTone(554, music.beat(BeatFraction.Double))
+    music.playTone(415, music.beat(BeatFraction.Breve))
+    music.playTone(370, music.beat(BeatFraction.Whole))
+    music.playTone(349, music.beat(BeatFraction.Half))
+    music.playTone(370, music.beat(BeatFraction.Half))
+    music.playTone(311, music.beat(BeatFraction.Breve))
 })
